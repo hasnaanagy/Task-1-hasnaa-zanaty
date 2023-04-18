@@ -12,12 +12,7 @@ jobs:
 
 
   steps:
-    - name: 'Testing folder content'
-      run: ls
-
 
     - uses: actions/checkout@v3
-    - name: 'Testing folder content'
-      run: ls
-
+      run: docker login --username hasnaanagy --password dckr_pat_7iKfHRf1H5zEiR8S4aFjIoPLOrM
  
