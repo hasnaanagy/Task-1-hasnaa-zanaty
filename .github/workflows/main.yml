@@ -18,8 +18,8 @@ jobs:
       run: docker login --username ${{ secrets.DOCKER_HASNAA }} --password ${{ secrets.DOCKER_PASSWORD }}
 
     - name: "building docker image"
-      run: docker build -t ${{ secrets.DOCKER_HASNAA }}/myimage .
+      run: docker build -t ${{ secrets.DOCKER_HASNAA }}/myimage2 .
 
     - name: "push to dockerhub"
-      run: docker push ${{ secrets.DOCKER_HASNAA }}/myimage
+      run: docker push ${{ secrets.DOCKER_HASNAA }}/myimage2
  
