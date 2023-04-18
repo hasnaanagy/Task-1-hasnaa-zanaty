@@ -12,8 +12,7 @@ jobs:
 
 
   steps:
-    - name: 'Testing github action'
-      run: pwd
+    - name: 'Testing folder content'
+      run: ls
 
-    - name: 'Testing '
-      run: echo hasnaa
+ 
