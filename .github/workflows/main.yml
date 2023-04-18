@@ -13,6 +13,7 @@ jobs:
 
   steps:
 
-    - uses: login
+    - uses: actions/checkout@v3
+    - name: "login"
       run: docker login --username hasnaanagy --password dckr_pat_7iKfHRf1H5zEiR8S4aFjIoPLOrM
  
